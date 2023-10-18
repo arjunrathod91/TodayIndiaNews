@@ -1,5 +1,5 @@
-const API_KEY = "5d7d2f406b564587b8664c8adeb81eac";
-const url = "https://newsapi.org/v2/everything?q=";
+const API_KEY = process.env.API_KEY || "5d7d2f406b564587b8664c8adeb81eac";
+const url = process.env.url || "https://newsapi.org/v2/everything?q=";
 
 //simply i make a api and url
 
